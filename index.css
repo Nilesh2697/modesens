@@ -1,0 +1,79 @@
+ /* body{
+            border: 1px solid;
+            height: 1000px;
+        } */
+        /* #navbar{
+            display: flex;
+            justify-content:space-between;
+            height: 20px;
+            width: 50%;
+            padding: 10px;
+        } */
+        #navbar{
+            display: flex;
+            /* flex-direction: row;  */
+            justify-content:space-around;
+            height: 20px;   
+            padding: 10px;
+         }
+        #navbar > div > img{
+            height: 20px;
+        }
+        a{
+            color: black;
+
+        }
+        #pic{
+            margin-left: 100px;
+            margin-top: 10px;
+        }
+        #hidding{
+            text-align: center;
+            margin: auto;
+            width: 80%;
+        }
+        #hidding > p{
+            color: gray;
+            font-weight: bold;
+            line-height: 20px;
+            font-size: 20px;
+        }
+        #Brand{
+            display: grid;
+            grid-template-columns: repeat(6,1fr);
+            grid-template-rows: repeat(2,1fr);
+            width: 90%;
+            margin-left: 60px;
+        }
+        #offer{
+            display: flex;
+        }
+        #trending{
+            height: 100px;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+        }
+        #trending>div>img{
+            height: 250px;
+        }
+        h2{
+            text-align: center;
+        }
+        #shop{
+            margin-left: 48%;
+            margin-bottom: 20%;
+        }
+        #Recently>div>img{
+            height: 250px;
+            padding: 0px 50px 0px 40px; 
+            margin-top: 400px;
+            text-align: center;           
+        }
+        #main{
+            height: 1000px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }     

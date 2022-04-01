@@ -1,0 +1,27 @@
+#tp{
+    display: flex;
+    justify-content: space-between;
+}
+#tp>div>img{
+    height:20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#two{
+    display: flex;
+}
+#content{
+  width: 50%;
+    margin-top: auto;
+    margin-right:400px;
+    padding: 50px;
+    justify-content: space-between;
+}
+#pic>img{
+  width:50%;
+  height:200px;
+  padding: 150px;
+  margin-right: 60px;
+}

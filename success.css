@@ -1,0 +1,19 @@
+img{
+    width: 100%;
+    height: 700px;
+}
+#tp{
+    display: flex;
+    justify-content: space-between;
+}
+#tp{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#tp>div>img:first-child{
+    height:20px;
+}
